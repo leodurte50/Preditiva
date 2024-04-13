@@ -1,0 +1,146 @@
+/*estilo do cabeçalho*/
+header {
+    text-align: center; 
+    padding: 20px;
+    color: blue;
+    background-color:  rgb(255, 230, 0)
+}
+
+ 
+ /*estilo do menu de navegação*/
+ nav {
+    text-align: center;
+    word-spacing: 30px;
+    Padding: 10px;
+ }
+ /*criando o layout de duas colunas*/
+ *{
+    box-sizing: border-box;
+ }
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .post-text-box {
+    flex: 70%;
+    padding: 20px;
+ }
+ .profile {
+    flex: 70%;
+    padding: 20px;
+ }
+ /*imagem de perfil e estilo de cabeçalho*/
+ .profile img {
+    width: 20px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+ }
+ .profile h1 {
+    text-align: center;
+ }
+ /*Configurações de imagens de fundo*/
+ section{
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+}
+.image-1 {
+  background-image: url("https://www.barloworld.mn/images/slider/2016-09-20-10-02-31wae_Unknown.jpeg")
+}
+
+.image-2 {
+  background-image: url("https://www.enstruc.com/wp-content/uploads/2019/09/mining-parts.png");
+}
+.image-3 {
+  background-image: url("https://i.pinimg.com/originals/a8/01/66/a80166db8fdc450d01008fbbc0cfcede.jpg");
+}
+.image-4 {
+  background-image: url("https://th.bing.com/th/id/R.9def76159c09f9112de3dba3c69efb99?rik=SAlxCecsMVcL3w&riu=http%3a%2f%2fwww.immersivetechnologies.com%2fimages%2fproducts%2fck%2fSD155%2fDrilling-Pattern.jpg&ehk=xId%2fpEzE3iYnn1kz1BfOhccxpJHwYLLUaTcwoL7rztE%3d&risl=&pid=ImgRaw&r=0");
+}
+
+.image-5 {
+  background-image: url("https://th.bing.com/th/id/OIP.gs6BXwKMOm_fg0XwJejTWgHaFo?rs=1&pid=ImgDetMain");
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* altura do rodapé */
+  }
+  
+  #footer {
+    position: relative;
+    bottom: 10;
+    width: 100%;
+    height: 5.5rem;            /* altura do rodapé */
+  }
+
+
+
+.trilho{
+   width: 60px;
+   height: 20px;
+   background-color: #4d4d4d;
+   border-radius: 20px;
+   position: relative;
+   cursor: pointer;
+}
+
+.trilho .indicador{
+   width: 30px;
+   height: 20px;
+   background-color: #020202;
+   border-radius: 50%;
+   transform: scale(.9);
+   position: absolute;
+   left: 0;
+   transition: .5s;
+
+}
+.trilho.escuro{
+   background-color: #c3c3c3;
+}
+
+.trilho.escuro .indicador{
+   left: 28px;
+   background-color: #fff;
+}
+body.escuro{
+   background-color: #9b9898 ;
+}
+body.escuro p1{
+   color: #0c0c0c;
+}
+body.escuro h1{
+       color: #c64646;
+}
+body.escuro h1{
+           color: #0d0e0d;
+       
+}
+.container {
+   display: inline-block;
+   position: relative;
+ }
+ .container p {
+   position: relative;
+   top: 145px;
+   right: 20px;
+   font-size: 40px;
+   color: white;
+height:100vh;
+ width: 100%;
+}
+ /* Texto direitos reservados */
+ .container-copy .copyright-text p {
+   margin: 100;
+   font-size: 15px; 
+   color: #b11313;
+ }
